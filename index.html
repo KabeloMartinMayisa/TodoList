@@ -9,12 +9,20 @@
 </head>
 <body>
     <h1>Personalized Todo-List</h1>
-    <ul class="todoList">
+    <div class="list">
+
         
-    </ul>
-    <input type="text" class="addItemInput">
-    <button class="addItemButton" onclick="addItem()">Add Item</button>
-    <button class="removeItemButton" onclick="removeItem()">Remove Last Item</button>
+        <ul class="todoList">
+        
+        </ul>
+
+
+        <input type="text" class="addItemInput" placeholder="type here ...">
+        <button class="addItemButton" onclick="addItem()">Add Item</button>
+        <button class="removeItemButton" onclick="removeItem()">Remove Last Item</button>
+    </div>
+    <!--button that will hide and show list-->
+    <button class="hideAndShowList">Hide List</button>
 
     <script src="script.js"></script>
 </body>
